@@ -6,7 +6,7 @@ import java.util.Collections;
 public class Main {
 
     public static void main(String[] args) {
-        Integer[] arr = {4, 4, 5, 6, 4, 2, 2, 8, 5};
+        Integer[] arr = {2, 5, 2, 8, 5, 6, 8, 8};
         int n = arr.length;
         //Вызов функции для получения значения count
         int count = Sort.sortByFreq(arr, n);
